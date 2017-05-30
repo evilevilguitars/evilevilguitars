@@ -1,0 +1,335 @@
+
+.subhead {
+    font-family: "Quarto A", "Quarto B";
+    font-style: normal;
+    font-weight: 800;
+    min-width: 100px;
+    padding-bottom: 10px;
+    padding-top: 3rem;
+    max-width:700px;
+    letter-spacing: .25px;
+
+}
+
+body{
+height: 100%;
+margin: 0;
+}
+
+article {
+    max-width: 740px;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+
+@media only screen and (min-width: 32em) {
+  .subhead {
+    font-size: 250%;
+    line-height: 1.3;
+    margin-left:15%;
+    margin-right:15%;
+  }
+    .body1 {
+    font-size:130%;
+    font-family: Larsseit-Light;
+	font-weight: normal;
+	font-style: normal;
+    line-height: 1.75em;
+    margin-left:15%;
+    margin-right:18%;
+  }
+       .Ben{
+        display: inline-block;
+    }
+    .Ian{
+        display: inline-block;
+}
+    .James{
+        display: inline-block;
+    }
+    h5{
+    font-size: 16px;
+letter-spacing:4px;    }
+    
+    h2{
+    font-size: 36px;
+    }
+    
+    h3{
+    font-size: 20px;
+    }
+}
+}
+
+@media only screen and (max-width: 1000px) {
+.subhead {
+    font-size:200%;
+    line-height: 1.3;
+    margin-left:10%;
+    margin-right:10%;
+    
+}
+    .body1 { 
+    font-size:120%;
+    font-family: Larsseit-Light;
+	font-weight: normal;
+	font-style: normal;
+    line-height: 1.6;
+    margin-left:10%;
+    margin-right:10%;
+}
+   .Ben{
+        display: inline;
+    }
+    .Ian{
+        display: inline;
+}
+    .James{
+        display:inline;
+    }
+    h5{
+    font-size: 16px;
+letter-spacing:4px;    }
+    
+    h2{
+    font-size: 36px;
+    }
+    
+    h3{
+    font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+.subhead {
+    font-size:190%;
+    line-height: 1.4;
+    margin-left:15%;
+    margin-right:15%;
+}
+    .body1 { 
+    font-size:110%;
+    font-family: Larsseit-Light;
+	font-weight: normal;
+	font-style: normal;
+    line-height: 1.7;
+    margin-left:15%;
+    margin-right:15%;
+}
+    .Ben{
+        display: inline;
+    }
+    .Ian{
+        display: inline;
+}
+    .James{
+        display:inline;
+    }
+        h5{
+    font-size: 16px;
+letter-spacing:4px;    }
+    
+    h2{
+    font-size: 36px;
+    }
+    
+    h3{
+    font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+.subhead {
+    font-size: 183%;
+    line-height: 1.4;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.slideshow{
+    display:none;
+}
+    
+.caption{
+    display:none;
+    }
+    
+.body1 { 
+    font-size: 110%;
+    font-family: Larsseit-Light;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.7;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.Ben{
+    display: inline;
+margin-top: 10rem
+    }
+.Ian{
+    display: inline;
+}
+.James{
+    display:inline;
+    padding-top: 150rem;
+    }
+    h5{
+    font-size: 16px;
+letter-spacing:4px;    }
+    
+    h2{
+    font-size: 30px;
+    }
+    
+    h3{
+    font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+.subhead {
+    font-size: 160%;
+    line-height: 1.4;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 0rem;
+    }
+    
+.body1 { 
+    font-size: 96%;
+    font-family: Larsseit-Light;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.7;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+    
+.teammembers{
+    padding-top: 0rem;
+    padding-bottom: 14rem;
+}
+
+    h5{
+    font-size: 12px;
+letter-spacing:4px;    }
+    
+    h2{
+    font-size: 24px;
+    }
+    
+    h3{
+    font-size: 18px;
+    }
+}
+
+.Shop_Shot{
+    height: 100%;
+    width: 100%;
+    }
+
+.logo {
+    top: 0;
+    height: 40px;
+    width: 200%;
+    background-color: white;
+    position: fixed;
+    box-shadow: 30%;
+    left: 0px;
+}
+
+#evilEvil {
+    position: fixed; 
+    margin: auto;
+    left: 0;
+    right: 0;
+    top:2px;
+    max-width: 200px;
+
+}
+ .caption {
+     position: relative; 
+     z-index: 0;
+     right: 6px; 
+     bottom:56px;
+     width: 100%; 
+     font-size: 13px;
+     font-style: italic;
+     font-weight: lighter;
+     color: white;
+     letter-spacing: .25px;
+ }
+
+
+.Ben {
+    text-align: center;
+    width: 38%
+}
+
+.James{
+    text-align: center;
+    width: 22%; 
+}
+
+.Ian{
+    text-align: center;
+    width: 38%;
+    margin-right:20;
+}
+
+h2{
+    font-family: "Quarto A", "Quarto B";
+    font-style: normal;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: Larsseit-Light;
+	font-weight: normal;
+	font-style: normal;
+    line-height: 1.4;
+}
+
+h4{
+    font-family: "Quarto A", "Quarto B";
+    font-style: italic;
+    font-weight: 300;
+}
+
+h5{
+    font-family: Larsseit-light;
+	font-weight:normal;
+	font-style:normal;
+    letter-spacing: 10px;
+    padding-bottom: 1rem;
+}
+
+.social{
+    width:200px;
+    height:40px;
+    position:
+}
+
+.wrapper {min-height: 100%;
+margin-bottom: -50px;
+}
+
+.footer,
+.push {
+height: 50px;
+}
+
+.teammembers{
+    padding-bottom: 4rem;
+}
+
+#facebookLogo{
+    min-width: 20px;
+width:4%; 
+margin: auto}
+
+#Layer_1{
+        min-width: 20px;
+width: 4%;
+margin: auto;}
