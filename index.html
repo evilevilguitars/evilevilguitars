@@ -70,6 +70,10 @@ function carousel() {
     x[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 4000); // Change image every 2 seconds
 }
+	  
+var host = "evilevilguitars.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
           </script>
 <h6 class="caption" align="right">Photo &amp; Video by Ian Vecchiotti</h6>
     </div>
