@@ -328,9 +328,11 @@ height: 50px;
 
 #facebookLogo{
     min-width: 20px;
-width:4%;
-display: block;	
+width:4%;	
 margin: auto}
+a{ 
+display: block;
+}
 
 #Layer_1{
         min-width: 20px;
